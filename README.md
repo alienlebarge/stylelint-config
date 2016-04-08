@@ -1,5 +1,7 @@
 # alb-stylelintrc
 
+[![Build Status](https://travis-ci.org/alienlebarge/stylelintrc.svg?branch=master)](https://travis-ci.org/alienlebarge/stylelintrc)
+
 These rule configurations for [Stylelint](http://stylelint.io/) files are massively based on [Harry Roberts](https://twitter.com/csswizardry) [CSS Guidelines](http://cssguidelin.es/).
 
 ## Install
