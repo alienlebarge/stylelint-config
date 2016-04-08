@@ -112,8 +112,9 @@
         "function-url-quotes": "double",
         "function-whitespace-after": "always",
         "indentation": [
-            4,
-            ignore: ["value", "param"]
+            4, {
+              ignore: ["value", "param"]
+            }
         ],
         "max-line-length": 80,
         "max-empty-lines": 5,
