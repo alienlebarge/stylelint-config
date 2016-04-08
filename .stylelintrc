@@ -13,18 +13,99 @@
         "block-opening-brace-newline-after": "always-multi-line",
         "block-opening-brace-space-after": "always-single-line",
         "block-opening-brace-space-before": "always-single-line",
+        "color-named": "never",
         "color-no-hex": true,
-        "color-no-named": true,
         "comment-empty-line-before": "always",
         "comment-whitespace-inside": "always",
         "declaration-bang-space-after": "never",
         "declaration-bang-space-before": "always",
+        "declaration-block-no-duplicate-properties": true,
+        "declaration-block-no-shorthand-property-overrides": true,
+        "declaration-block-properties-order": [
+        [
+        {
+        order: "strict",
+        emptyLineBefore: true,
+        properties: [
+        "position",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "z-index"
+        ]
+        },
+        {
+        order: "strict",
+        emptyLineBefore: true,
+        properties: [
+        "display",
+        "float",
+        "clear",
+        "flex",
+        "flex-grow",
+        "flex-shrink",
+        "flex-basis",
+        "width",
+        "max-width",
+        "min-width",
+        "height",
+        "max-height",
+        "min-height"
+        ]
+        },
+        {
+        order: "strict",
+        emptyLineBefore: true,
+        properties: [
+        "font-size",
+        "font-weight",
+        "font-style",
+        "font-family",
+        "font-variant",
+        "font-feature",
+        "font-stretch",
+        "font",
+        "line-height",
+        "color",
+        "text",
+        "letter-spacing"
+        ]
+        },
+        {
+        order: "strict",
+        emptyLineBefore: true,
+        properties: [
+        "background",
+        "border",
+        "border-top",
+        "border-right",
+        "border-bottom",
+        "border-left",
+        "margin",
+        "margin-top",
+        "margin-right",
+        "margin-bottom",
+        "margin-left",
+        "padding",
+        "padding-top",
+        "padding-right",
+        "padding-bottom",
+        "padding-left",
+        ]
+        }
+        ],
+        {
+        unspecified: "bottom"
+        }
+        ],
         "declaration-colon-space-after": "always",
         "declaration-colon-space-before": "never",
         "declaration-block-semicolon-newline-after": "always",
         "declaration-block-semicolon-newline-before": "never-multi-line",
         "declaration-block-semicolon-space-after": "always-single-line",
         "declaration-block-single-line-max-declarations": 1,
+        "declaration-block-trailing-semicolon": "always",
         "function-calc-no-unspaced-operator": true,
         "function-comma-space-after": "always",
         "function-linear-gradient-no-nonstandard-direction": true,
@@ -56,91 +137,10 @@
             "always",
             ignore: ["after-comment"]
         ],
-        "rule-no-duplicate-properties": true,
-        "rule-no-shorthand-property-overrides": true,
         "rule-non-nested-empty-line-before": [
             "always",
             ignore: ["after-comment"]
         ],
-        "rule-properties-order": [
-            [
-                {
-                    order: "strict",
-                    emptyLineBefore: true,
-                    properties: [
-                        "position",
-                        "top",
-                        "right",
-                        "bottom",
-                        "left",
-                        "z-index"
-                    ]
-                },
-                {
-                    order: "strict",
-                    emptyLineBefore: true,
-                    properties: [
-                        "display",
-                        "float",
-                        "clear",
-                        "flex",
-                        "flex-grow",
-                        "flex-shrink",
-                        "flex-basis",
-                        "width",
-                        "max-width",
-                        "min-width",
-                        "height",
-                        "max-height",
-                        "min-height"
-                    ]
-                },
-                {
-                    order: "strict",
-                    emptyLineBefore: true,
-                    properties: [
-                        "font-size",
-                        "font-weight",
-                        "font-style",
-                        "font-family",
-                        "font-variant",
-                        "font-feature",
-                        "font-stretch",
-                        "font",
-                        "line-height",
-                        "color",
-                        "text",
-                        "letter-spacing"
-                    ]
-                },
-                {
-                    order: "strict",
-                    emptyLineBefore: true,
-                    properties: [
-                        "background",
-                        "border",
-                        "border-top",
-                        "border-right",
-                        "border-bottom",
-                        "border-left",
-                        "margin",
-                        "margin-top",
-                        "margin-right",
-                        "margin-bottom",
-                        "margin-left",
-                        "padding",
-                        "padding-top",
-                        "padding-right",
-                        "padding-bottom",
-                        "padding-left",
-                    ]
-                }
-            ],
-            {
-                unspecified: "bottom"
-            }
-        ],
-        "rule-trailing-semicolon": "always",
         "root-no-standard-properties": true,
         "selector-combinator-space-after": "always",
         "selector-combinator-space-before": "always",
