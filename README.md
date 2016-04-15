@@ -7,7 +7,7 @@ These rule configurations for [Stylelint](http://stylelint.io/) files are massiv
 ## Install
 
 ```
-$ npm install https://github.com/alienlebarge/stylelintrc.git
+$ npm install alb-stylelintrc
 ```
 
 ## How to use
