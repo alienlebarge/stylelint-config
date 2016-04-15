@@ -1,6 +1,6 @@
 {
   "name": "alb-stylelintrc",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Stylelint rule configurations",
   "main": "README.md",
   "scripts": {
