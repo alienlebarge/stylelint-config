@@ -1,6 +1,6 @@
 {
   "name": "@alienlebarge/stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stylelint sharable configuration files",
   "main": "README.md",
   "scripts": {
