@@ -151,6 +151,7 @@
             ignore: ["after-comment"]
         ],
         "root-no-standard-properties": true,
+        "selector-attribute-brackets-space-inside": "never",
         "selector-combinator-space-after": "always",
         "selector-combinator-space-before": "always",
         "selector-no-id": true,
