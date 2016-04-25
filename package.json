@@ -4,7 +4,7 @@
   "description": "Stylelint sharable configuration files",
   "main": "README.md",
   "scripts": {
-    "test": "gulp lint:css"
+    "test": "stylelint \"test/*.css\""
   },
   "repository": {
     "type": "git",
