@@ -2,7 +2,7 @@
   "name": "@alienlebarge/stylelint-config",
   "version": "1.0.3",
   "description": "Stylelint sharable configuration files",
-  "main": "README.md",
+  "main": ".stylelintrc",
   "scripts": {
     "test": "stylelint \"test/*.css\""
   },
