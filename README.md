@@ -29,3 +29,5 @@ Create a `.stylelintrc` file with:
     "extends": "@alienlebarge/stylelint-config"
 }
 ```
+
+[Documentation about `extends`](http://stylelint.io/user-guide/configuration/#extends).
