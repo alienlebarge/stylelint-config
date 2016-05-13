@@ -137,6 +137,7 @@
         "media-query-list-comma-space-after": "always-single-line",
         "media-query-list-comma-space-before": "never",
         "no-eol-whitespace": true,
+        "no-extra-semicolons": true,
         "no-missing-eof-newline": true,
         "number-leading-zero": "never",
         "number-no-trailing-zeros": true,
