@@ -28,6 +28,9 @@
   "devDependencies": {
     "stylelint": "^6.3.3"
   },
+  "peerDependencies": {
+    "stylelint": "^6.3.3"
+  },
   "directories": {
     "test": "test"
   }
