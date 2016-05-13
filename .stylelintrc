@@ -158,6 +158,7 @@
         "selector-attribute-operator-space-before": "never",
         "selector-combinator-space-after": "always",
         "selector-combinator-space-before": "always",
+        "selector-max-empty-lines": 0,
         "selector-no-id": true,
         "selector-pseudo-class-case": "lower",
         "selector-pseudo-class-parentheses-space-inside": "never",
