@@ -162,6 +162,7 @@
         "selector-no-id": true,
         "selector-pseudo-class-case": "lower",
         "selector-pseudo-class-parentheses-space-inside": "never",
+        "selector-pseudo-class-no-unknown": true,
         "selector-pseudo-element-case": "lower",
         "selector-pseudo-element-colon-notation": "double",
         "selector-pseudo-element-no-unknown": true,
