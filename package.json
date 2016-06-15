@@ -25,9 +25,6 @@
     "url": "https://github.com/alienlebarge/stylelint-config/issues"
   },
   "homepage": "https://github.com/alienlebarge/stylelint-config#readme",
-  "devDependencies": {
-    "stylelint": "^6.3.3"
-  },
   "peerDependencies": {
     "stylelint": "^6.6.0"
   },
