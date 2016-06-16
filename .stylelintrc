@@ -7,7 +7,6 @@
             }
         ],
         "at-rule-name-case": "lower",
-        "at-rule-name-newline-after": "always-multi-line",
         "at-rule-no-vendor-prefix": true,
         "at-rule-name-space-after": "always",
         "block-closing-brace-newline-after": "always",
