@@ -105,6 +105,7 @@
         "declaration-block-semicolon-space-after": "always-single-line",
         "declaration-block-single-line-max-declarations": 1,
         "declaration-block-trailing-semicolon": "always",
+        "declaration-empty-line-before": "always",
         "font-family-name-quotes": "always-where-recommended",
         "function-comma-newline-after": "always-multi-line",
         "function-comma-newline-before": "never-multi-line",
