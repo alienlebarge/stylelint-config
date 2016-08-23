@@ -140,7 +140,6 @@
         "no-eol-whitespace": true,
         "no-extra-semicolons": true,
         "no-missing-end-of-source-newline": true,
-        "no-missing-eof-newline": true,
         "number-leading-zero": "never",
         "number-no-trailing-zeros": true,
         "property-case": "lower",
