@@ -19,6 +19,11 @@
         "color-named": "never",
         "comment-empty-line-before": "always",
         "comment-whitespace-inside": "always",
+        "custom-property-empty-line-before":  [
+            "always", {
+                except: ["after-comment", "after-custom-property", "first-nested"],
+            }
+        ],
         "declaration-bang-space-after": "never",
         "declaration-bang-space-before": "always",
         "declaration-colon-space-after": "always-single-line",
