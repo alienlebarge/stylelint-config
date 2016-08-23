@@ -18,6 +18,7 @@
         "color-no-hex": true,
         "color-named": "never",
         "comment-empty-line-before": "always",
+        "comment-no-empty": true,
         "comment-whitespace-inside": "always",
         "custom-property-empty-line-before":  [
             "always", {
