@@ -112,6 +112,7 @@
         "function-comma-space-before": "never",
         "function-linear-gradient-no-nonstandard-direction": true,
         "function-name-case": "lower",
+        "function-url-no-scheme-relative": true,
         "function-url-quotes": "always",
         "function-whitespace-after": "always",
         "indentation": [
