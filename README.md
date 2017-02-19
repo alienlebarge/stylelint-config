@@ -19,6 +19,10 @@ These rule configurations are massively inspired by [Harry Roberts](https://twit
 ```
 $ npm install @alienlebarge/stylelint-config
 ```
+or
+```
+$ yarn add @alienlebarge/stylelint-config
+```
 
 ### Extend
 
