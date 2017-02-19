@@ -152,9 +152,9 @@
         "number-no-trailing-zeros": true,
         "property-case": "lower",
         "property-no-vendor-prefix": true,
-        "rule-nested-empty-line-before": [
-            "always",
-            ignore: ["after-comment"]
+        "rule-empty-line-before": [
+        "always",
+        ignore: ["after-comment"]
         ],
         "rule-empty-line-before": [
             "always",
