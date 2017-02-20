@@ -2053,7 +2053,7 @@ postcss-value-parser@^3.1.1, postcss-value-parser@^3.2.3:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz#87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15"
 
-postcss@^5.0.0, postcss@^5.0.18, postcss@^5.0.20, postcss@^5.0.21, postcss@^5.0.4, postcss@^5.0.8, postcss@^5.2.10, postcss@^5.2.13, postcss@^5.2.4:
+postcss@^5.0.0, postcss@^5.0.18, postcss@^5.0.20, postcss@^5.0.21, postcss@^5.0.4, postcss@^5.0.8, postcss@^5.2.10, postcss@^5.2.13, postcss@^5.2.14, postcss@^5.2.4:
   version "5.2.14"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.14.tgz#47b4fbde363fd4f81e547f7e0e43d6d300267330"
   dependencies:
@@ -2458,6 +2458,14 @@ stylehacks@^2.3.0:
     read-file-stdin "^0.2.1"
     text-table "^0.2.0"
     write-file-stdout "0.0.2"
+
+stylelint-order@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-0.3.0.tgz#9a0f593c077c04d5e5da22404dab84288c933843"
+  dependencies:
+    lodash "^4.17.4"
+    postcss "^5.2.14"
+    stylelint "^7.8.0"
 
 stylelint@^7.8.0:
   version "7.9.0"
