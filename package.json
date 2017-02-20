@@ -4,7 +4,8 @@
   "description": "Stylelint sharable configuration files",
   "main": ".stylelintrc",
   "scripts": {
-    "test": "stylelint \"test/*.css\""
+    "test": "stylelint \"test/*.css\"",
+    "dev": "yarn && gulp dev"
   },
   "repository": {
     "type": "git",
