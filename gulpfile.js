@@ -4,18 +4,26 @@ var reporter = require("postcss-reporter");
 var stylelint = require("stylelint");
 var jsonlint = require("gulp-jsonlint");
 
-gulp.task("lint:json", function () {
-  gulp.src("./.stylelintrc")
-      .pipe(jsonlint())
-      .pipe(jsonlint.reporter());
-})
+/**
+ * Lint JSON
+ */
+function lintjson() {
+    return gulp.src("./.stylelintrc")
+        .pipe(jsonlint())
+        .pipe(jsonlint.reporter());
+}
 
-gulp.task("lint:css", function () {
-  return gulp.src("test/**/*.css")
-    .pipe(postcss([
-      stylelint({
-        /* configFile: 'node_modules/alb-stylelintrc/.stylelintrc' */
-      }),
-      reporter({ clearMessages: true }),
-    ]))
-})
+/**
+ * Lint CSS
+ */
+function lintstyles() {
+    return gulp.src("test/**/*.css")
+        .pipe(postcss([
+          stylelint({
+            /* configFile: 'node_modules/alb-stylelintrc/.stylelintrc' */
+          }),
+          reporter({ clearMessages: true }),
+        ]))
+}
+
+gulp.task('dev', gulp.series(lintjson, lintstyles));
