@@ -1,0 +1,9 @@
+div {
+    position: relative;
+    top: 0;
+
+    display: none;
+
+    font-size: 1rem;
+    font-weight: 400;
+}
