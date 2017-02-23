@@ -21,7 +21,12 @@
         "block-opening-brace-space-before": "always-single-line",
         "color-no-hex": true,
         "color-named": "never",
-        "comment-empty-line-before": "always",
+        "comment-empty-line-before": [
+            "always",
+            {
+                "except": ["first-nested"]
+            }
+        ],
         "comment-no-empty": true,
         "comment-whitespace-inside": "always",
         "custom-property-empty-line-before":  [
