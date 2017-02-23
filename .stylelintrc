@@ -86,73 +86,78 @@
         "number-leading-zero": "never",
         "number-no-trailing-zeros": true,
         "order/declaration-block-property-groups-structure": [
+            [
+                {
+                    "emptyLineBefore": "always",
+                    "properties": [
+                        "position",
+                        "top",
+                        "right",
+                        "bottom",
+                        "left",
+                        "z-index"
+                    ]
+                },
+                {
+                    "emptyLineBefore": "always",
+                    "properties": [
+                        "display",
+                        "float",
+                        "clear",
+                        "flex",
+                        "flex-grow",
+                        "flex-shrink",
+                        "flex-basis",
+                        "width",
+                        "max-width",
+                        "min-width",
+                        "height",
+                        "max-height",
+                        "min-height"
+                    ]
+                },
+                {
+                    "emptyLineBefore": "always",
+                    "properties": [
+                        "font",
+                        "font-size",
+                        "font-weight",
+                        "font-style",
+                        "font-family",
+                        "font-variant",
+                        "font-feature",
+                        "font-kerning",
+                        "font-stretch",
+                        "line-height",
+                        "color",
+                        "text",
+                        "letter-spacing"
+                    ]
+                },
+                {
+                    "emptyLineBefore": "always",
+                    "properties": [
+                        "background",
+                        "border",
+                        "border-top",
+                        "border-right",
+                        "border-bottom",
+                        "border-left",
+                        "margin",
+                        "margin-top",
+                        "margin-right",
+                        "margin-bottom",
+                        "margin-left",
+                        "padding",
+                        "padding-top",
+                        "padding-right",
+                        "padding-bottom",
+                        "padding-left"
+                    ]
+                }
+            ],
             {
-                "emptyLineBefore": "always",
-                "properties": [
-                    "position",
-                    "top",
-                    "right",
-                    "bottom",
-                    "left",
-                    "z-index"
-                ]
-            },
-            {
-                "emptyLineBefore": "always",
-                "properties": [
-                    "display",
-                    "float",
-                    "clear",
-                    "flex",
-                    "flex-grow",
-                    "flex-shrink",
-                    "flex-basis",
-                    "width",
-                    "max-width",
-                    "min-width",
-                    "height",
-                    "max-height",
-                    "min-height"
-                ]
-            },
-            {
-                "emptyLineBefore": "always",
-                "properties": [
-                    "font",
-                    "font-size",
-                    "font-weight",
-                    "font-style",
-                    "font-family",
-                    "font-variant",
-                    "font-feature",
-                    "font-kerning",
-                    "font-stretch",
-                    "line-height",
-                    "color",
-                    "text",
-                    "letter-spacing"
-                ]
-            },
-            {
-                "emptyLineBefore": "always",
-                "properties": [
-                    "background",
-                    "border",
-                    "border-top",
-                    "border-right",
-                    "border-bottom",
-                    "border-left",
-                    "margin",
-                    "margin-top",
-                    "margin-right",
-                    "margin-bottom",
-                    "margin-left",
-                    "padding",
-                    "padding-top",
-                    "padding-right",
-                    "padding-bottom",
-                    "padding-left"
-                ]
+                "unspecified": "bottomAlphabetical"
             }
         ],
         "property-case": "lower",
