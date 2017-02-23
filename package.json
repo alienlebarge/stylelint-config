@@ -38,5 +38,8 @@
   },
   "directories": {
     "test": "test"
+  },
+  "dependencies": {
+    "stylelint-order": "^0.3.0"
   }
 }
