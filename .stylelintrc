@@ -85,7 +85,7 @@
         "no-missing-end-of-source-newline": true,
         "number-leading-zero": "never",
         "number-no-trailing-zeros": true,
-        "order/declaration-block-property-groups-structure": [
+        "order/properties-order": [
             [
                 {
                     "emptyLineBefore": "always",
