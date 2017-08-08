@@ -29,8 +29,8 @@
   "devDependencies": {
     "gulp": "gulpjs/gulp#4.0",
     "gulp-jsonlint": "^1.2.0",
-    "gulp-postcss": "^6.3.0",
-    "gulp-reporter": "^1.4.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-reporter": "^2.2.1",
     "stylelint": "^8.0.0"
   },
   "peerDependencies": {
@@ -40,6 +40,6 @@
     "test": "test"
   },
   "dependencies": {
-    "stylelint-order": "^0.3.0"
+    "stylelint-order": "^0.6.0"
   }
 }
