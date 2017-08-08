@@ -1,6 +1,6 @@
 {
   "name": "@alienlebarge/stylelint-config",
-  "version": "2.0.6",
+  "version": "3.0.0",
   "description": "Stylelint sharable configuration files",
   "main": ".stylelintrc",
   "scripts": {
@@ -31,7 +31,7 @@
     "gulp-jsonlint": "^1.2.0",
     "gulp-postcss": "^6.3.0",
     "gulp-reporter": "^1.4.0",
-    "stylelint": "^7.8.0"
+    "stylelint": "^8.0.0"
   },
   "peerDependencies": {
     "stylelint": "^7.8.0"
