@@ -141,6 +141,12 @@
                     "emptyLineBefore": "always",
                     "properties": [
                         "background",
+                        "background-color",
+                        "background-image",
+                        "background-origin",
+                        "background-position",
+                        "background-repeat",
+                        "background-size",
                         "border",
                         "border-top",
                         "border-right",
