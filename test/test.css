@@ -1,3 +1,22 @@
+/**
+ * This is a comment
+ *
+ * 1. This is a specific comment
+ * 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+ *    nesciunt facilis omnis et dignissimos, labore, voluptatum aliquid, est
+ *    debitis qui expedita dolores reprehenderit laborum temporibus.
+ */
 h1 {
     font-size: 1rem;
+
+    background-image: linear-gradient(
+        -100deg,
+        color(rgba(255, 0, 0, 1) alpha(-70%)),
+        color(rgba(255, 0, 0, 1) alpha(-30%)) 95%,
+        color(rgba(255, 0, 0, 1) alpha(-90%))
+    ); /* [1] */
+
+    border-radius:
+        1em
+        0; /* [2] */
 }
