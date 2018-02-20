@@ -34,7 +34,7 @@
     "stylelint": "^9.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^8.4.0"
+    "stylelint": "^9.0.0"
   },
   "directories": {
     "test": "test"
