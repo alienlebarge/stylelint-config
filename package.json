@@ -31,7 +31,7 @@
     "gulp-jsonlint": "^1.2.0",
     "gulp-postcss": "^7.0.0",
     "gulp-reporter": "^2.2.1",
-    "stylelint": "^8.4.0"
+    "stylelint": "^9.0.0"
   },
   "peerDependencies": {
     "stylelint": "^8.4.0"
