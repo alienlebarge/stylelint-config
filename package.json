@@ -1,6 +1,6 @@
 {
   "name": "@alienlebarge/stylelint-config",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "Stylelint sharable configuration files",
   "main": ".stylelintrc",
   "scripts": {
@@ -31,15 +31,15 @@
     "gulp-jsonlint": "^1.2.0",
     "gulp-postcss": "^7.0.0",
     "gulp-reporter": "^2.2.1",
-    "stylelint": "^8.0.0"
+    "stylelint": "^9.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.8.0"
+    "stylelint": "^9.0.0"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "stylelint-order": "^0.6.0"
+    "stylelint-order": "^0.8.0"
   }
 }
