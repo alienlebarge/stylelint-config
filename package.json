@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/alienlebarge/stylelint-config#readme",
   "devDependencies": {
-    "gulp": "gulpjs/gulp#4.0",
+    "gulp": "^4.0.2",
     "gulp-jsonlint": "^1.2.0",
     "gulp-postcss": "^7.0.0",
     "gulp-reporter": "^2.2.1",
