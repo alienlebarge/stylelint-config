@@ -3,8 +3,3 @@ node_modules
 
 # Log files
 *.log
-
-# Ignore NPM dependency lock
-# We only use Yarn as our official Node package manager, and so we will only
-# commit yarn.lock files, and ignore package-lock.json files.
-package-lock.json

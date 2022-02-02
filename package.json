@@ -5,7 +5,7 @@
   "main": ".stylelintrc",
   "scripts": {
     "test": "stylelint \"test/*.css\"",
-    "dev": "yarn && gulp dev"
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",

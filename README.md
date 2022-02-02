@@ -19,10 +19,6 @@ These rule configurations are massively inspired by [Harry Roberts](https://twit
 ```
 $ npm install @alienlebarge/stylelint-config
 ```
-or
-```
-$ yarn add @alienlebarge/stylelint-config
-```
 
 ### Extend
 
@@ -35,8 +31,3 @@ Create a `.stylelintrc` file with:
 ```
 
 [Documentation about `extends`](http://stylelint.io/user-guide/configuration/#extends).
-
-## Note about dependency manager
-
-I only use Yarn as my official Node package manager, and so I will only
-commit `yarn.lock` files, and ignore `package-lock.json` files.
