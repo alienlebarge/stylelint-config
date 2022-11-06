@@ -3,6 +3,11 @@
         "stylelint-order"
     ],
     "rules": {
+        "no-descending-specificity": [
+            true, {
+                ignore: ["selectors-within-list"]
+            }
+        ],
         "at-rule-empty-line-before": [
             "always", {
                 "except": ["blockless-after-blockless", "first-nested"],
