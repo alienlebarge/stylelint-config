@@ -4,8 +4,7 @@
   "description": "Stylelint sharable configuration files",
   "main": ".stylelintrc",
   "scripts": {
-    "test": "stylelint \"test/*.css\"",
-    "dev": "gulp dev"
+    "test": "stylelint \"test/*.css\""
   },
   "repository": {
     "type": "git",
@@ -27,10 +26,6 @@
   },
   "homepage": "https://github.com/alienlebarge/stylelint-config#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-jsonlint": "^1.3.2",
-    "gulp-postcss": "^9.0.1",
-    "gulp-reporter": "^2.10.0",
     "stylelint": "^14.14.1"
   },
   "peerDependencies": {
