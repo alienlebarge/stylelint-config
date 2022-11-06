@@ -14,7 +14,7 @@
         "keyframe-block-no-duplicate-selectors": true,
         "no-duplicate-at-import-rules": true,
         "no-duplicate-selectors": [
-            true,{
+            true, {
                 "disallowInList": true
             }
         ],
@@ -45,7 +45,7 @@
         ],
         "comment-no-empty": true,
         "comment-whitespace-inside": "always",
-        "custom-property-empty-line-before":  [
+        "custom-property-empty-line-before": [
             "always", {
                 "except": ["after-comment", "after-custom-property", "first-nested"]
             }
@@ -73,9 +73,9 @@
         "indentation": [
             4,
             {
-              "indentInsideParens": "once-at-root-twice-in-block",
-              "ignore": ["value", "param"],
-              "indentClosingBrace": false
+                "indentInsideParens": "once-at-root-twice-in-block",
+                "ignore": ["value", "param"],
+                "indentClosingBrace": false
             }
         ],
         "keyframe-declaration-no-important": true,
@@ -100,8 +100,7 @@
         "number-leading-zero": "never",
         "number-no-trailing-zeros": true,
         "order/properties-order": [
-            [
-                {
+            [{
                     "emptyLineBefore": "always",
                     "properties": [
                         "position",
@@ -186,10 +185,10 @@
         "property-case": "lower",
         "property-no-vendor-prefix": true,
         "rule-empty-line-before": [
-          "always",
-          {
-            "ignore": ["after-comment"]
-          }
+            "always",
+            {
+                "ignore": ["after-comment"]
+            }
         ],
         "selector-attribute-brackets-space-inside": "never",
         "selector-attribute-operator-space-after": "never",
