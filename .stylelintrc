@@ -18,6 +18,9 @@
                 "disallowInList": true
             }
         ],
+
+        "block-no-empty": true,
+
         "at-rule-empty-line-before": [
             "always", {
                 "except": ["blockless-after-blockless", "first-nested"],
@@ -30,7 +33,6 @@
         "block-closing-brace-empty-line-before": "never",
         "block-closing-brace-newline-after": "always",
         "block-closing-brace-space-before": "always-single-line",
-        "block-no-empty": true,
         "block-opening-brace-newline-after": "always-multi-line",
         "block-opening-brace-space-after": "always-single-line",
         "block-opening-brace-space-before": "always-single-line",
