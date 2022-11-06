@@ -12,6 +12,7 @@
         "declaration-block-no-duplicate-properties": true,
         "font-family-no-duplicate-names": true,
         "keyframe-block-no-duplicate-selectors": true,
+        "no-duplicate-at-import-rules": true,
         "at-rule-empty-line-before": [
             "always", {
                 "except": ["blockless-after-blockless", "first-nested"],
