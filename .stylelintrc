@@ -13,6 +13,11 @@
         "font-family-no-duplicate-names": true,
         "keyframe-block-no-duplicate-selectors": true,
         "no-duplicate-at-import-rules": true,
+        "no-duplicate-selectors": [
+            true,{
+                "disallowInList": true
+            }
+        ],
         "at-rule-empty-line-before": [
             "always", {
                 "except": ["blockless-after-blockless", "first-nested"],
