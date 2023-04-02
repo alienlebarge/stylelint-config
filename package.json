@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/alienlebarge/stylelint-config#readme",
   "devDependencies": {
-    "stylelint": "^14.14.1"
+    "stylelint": "^15.4.0"
   },
   "peerDependencies": {
     "stylelint": "^14.14.1"
@@ -35,6 +35,6 @@
     "test": "test"
   },
   "dependencies": {
-    "stylelint-order": "^5.0.0"
+    "stylelint-order": "^6.0.3"
   }
 }
